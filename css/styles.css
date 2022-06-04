@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+    border-width: 0 12px 21px 13px;
+    margin: 50px 0 35px;
+    border-style: dotted;
+    width: 5%;
+    color: #D5D5D5;
+    position: relative;
+    left: 48%;
+
+}
+
+/* TOP SECTION */
+
+.nav-logo{
+    position: absolute;
+    width: 141px;
+    height: 100px;
+    top: 10px;
+    bottom: 14px;
+    left: 322px;
+
+}
+
+.nav-row{
+    display: inline-block;
+    margin: 40px 0;
+    position: relative;
+    left: 796px;
+    padding-right: 50px;
+}
+
+.nav-col{
+    float: right;
+    font-size: 15px;
+    letter-spacing: 0.23px;
+    line-height: 2;
+    
+}
+
+.nav-title{
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    
+}
+
+.nav-image{
+    padding: 0 13px 0 0;
+}
+
+.nav-text{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #707070;
+    opacity: 1;
+
+}
+
+.contact-btn{
+    position: absolute;
+    left: 1596px;
+    margin: 30px 0;
+    width: 200px;
+    height: 63px;
+    background-color: #7BC143;
+    border: 0;
+    border-radius: 100px;
+
+}
+
+.btn-text{
+    text-decoration: none;
+    letter-spacing: 0.24px;
+    color: #ffffff;
+    font-size: 16px;
+
+}
+
+/* NAVIGATION BAR */
+
+nav{
+    position: relative;
+    background-color: #7BC143;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.nav-item{
+    list-style: none;
+    display: inline-block;
+    margin: 18px 30px;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 80px;
+}
+
+.banner-container{
+    margin:0;
+    width: 1920px;
+    height: 893px;
+    text-align: center;
+}
+
+
+/* SLIDER CSS */
+.slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.images{
+    width: 100%;
+    display: flex;
+}
+
+.images img{
+    width: 100%;
+    transition: all 3s ease;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.images input{
+    display: none;
+}
+
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #D5D5D5 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover{
+    background: #7BC143;
+
+}
+
+#img1:checked ~ .m1 {
+    margin-left: 0;
+
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+
+}
+
+/* FEATURED DESTINATION */
+
+.main-heading{
+    position: relative;
+    display: block;
+    text-align: center;
+    top: 20px;
+}
+
+.head-title{
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 1;
+    color: #095380;
+    font-weight: 700;
+}
+
+.logo{
+    margin: 99px 0 0;
+}
+
+.head-text{
+    padding: 10px 0 60px;
+    color: #707070;
+
+}
+
+.main-content{
+    position: relative;
+    left: 8%;
+}
+
+.destination-cards{
+    margin: 0 0 25px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    box-shadow: 0px 0px 10px #00000040;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    display: inline-grid;
+    height: 360px;
+    width: 375px;
+    
+}
+
+.destination-cards img{
+    width: 100%;
+}
+
+.dest-card-header {
+    color: #095380;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+
+.dest-cards-text{
+    padding-left: 14px;
+    color: #707070;
+    text-align: left;
+    line-height: 1.6;
+
+
+}
+
+.cards-btn{
+    position: relative;
+    left: 10px;
+    height: 33px;
+    width: 122px;
+    background-color: #FEE019;
+    color: #095380;
+    border: 0;
+    font-size: 17px;
+}
